@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc; 
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"], select {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+input[readonly], select[disabled] {
+    background-color: #f9f9f9;
+}
